@@ -13,3 +13,6 @@ docker run \
 --privileged=true -d --restart=always nginx
 
 详细请看 dev-ops 第4节：Nginx环境配置
+
+1. 这里就是先把nginx里的3个文件copy到本地(要的就是他的这个框架)
+2. 然后创建新的容器的时候,直接映射本地的文件的地址
